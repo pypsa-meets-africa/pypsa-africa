@@ -52,6 +52,7 @@ dependencies:
 - numba
 - py7zr
 - tsam>=1.1.0
+- fake_useragent
 
   # Keep in conda environment when calling ipython
 - ipython
@@ -88,4 +89,3 @@ dependencies:
 - pip:
   - git+https://github.com/davide-f/google-drive-downloader@master  # google drive with fix for virus scan
   - chaospy  # lastest version only available on pip
-  - fake_useragent

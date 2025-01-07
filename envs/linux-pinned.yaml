@@ -119,6 +119,7 @@ dependencies:
 - exceptiongroup=1.2.2
 - executing=2.1.0
 - expat=2.6.4
+- fake-useragent==2.0.3
 - filelock=3.16.1
 - fiona=1.10.1
 - fmt=11.0.2
@@ -574,8 +575,6 @@ dependencies:
 - zstd=1.5.6
 - pip:
   - chaospy==4.3.17
-  - fake-useragent==2.0.3
   - googledrivedownloader==0.4
   - highspy==1.9.0
-  - tsam==2.3.6
 prefix: /usr/share/miniconda/envs/pypsa-earth
